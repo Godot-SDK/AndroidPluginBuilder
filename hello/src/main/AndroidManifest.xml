@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这里的package=后面的包名和文件夹对应 -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hh128">
+
+    <!-- 必要权限，如sdk不需要，可删除 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+   <!-- <application android:name="com.xiaofengyu.travel.MyApp">-->
+    <application>
+        <meta-data
+            android:name="org.godotengine.plugin.v1.PocketPlugin"
+            android:value="com.hh128.PocketPlugin"/>
+    </application>
+
+</manifest>
